@@ -1,0 +1,23 @@
+● Três notebooks criados em Python/Notebooks/ e publicados. Aqui está o que cada um cobre:
+ 
+  01_Exploracao_e_Rotulagem.ipynb
+  - Carregamento e visualização dos dados históricos
+  - Cálculo de features (médias móveis + skewness)
+  - Visualização dos filtros com bandas de quantis
+  - Aplicação e comparativo dos 6 métodos de rotulagem com tabela resumo
+
+  02_Clusterizacao_e_Treinamento.ipynb
+  - K-Means com visualização dos regimes por cores no gráfico de preço
+  - Loop de treinamento cluster a cluster
+  - Os 6 métodos de rotulagem estão todos presentes como bloco comentado — é só descomentear o que quiser testar
+  - Ranking dos modelos por R² e salvamento em .pkl
+
+  03_Exportacao_ONNX.ipynb
+  - Carrega o modelo do .pkl (ou usa o objeto em memória se rodou em sequência)
+  - Exporta os dois arquivos .onnx e o .mqh
+  - Exibe o conteúdo do arquivo MQL5 gerado para verificação
+  - Instruções completas de configuração no MetaTrader 5
+
+  Um ponto importante: os notebooks importam as bibliotecas usando sys.path.insert(0, '..'), então eles precisam rodar de dentro da pasta Notebooks/ ou com o
+  kernel iniciado a partir dela — o Jupyter faz isso automaticamente quando você abre o arquivo pela interface.
+
