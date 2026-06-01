@@ -2,10 +2,6 @@
 
 Pesquisa e implementação de modelos de machine learning para análise de séries temporais, classificação de regimes de mercado e desenvolvimento de estratégias quantitativas de reversão à média.
 
-> Baseado no artigo: [Creating a mean-reversion strategy based on machine learning](https://www.mql5.com/en/articles/16457)
-
----
-
 ## Visão Geral
 
 Este projeto demonstra uma abordagem completa para desenvolver sistemas de trading usando machine learning, com foco em estratégias de **reversão à média** aplicadas ao par de moedas **EURGBP** no timeframe H1.
@@ -271,3 +267,7 @@ Os testes demonstraram que a combinação de **rotulagem de operações** com **
 - O método de reversão à média com restrições de lucratividade (Método 5) atingiu R² = 1.00
 - O backtesting no MetaTrader 5 confirmou curva de equity crescente e estável de 2010 a 2024
 - O framework é facilmente adaptável a outros pares e timeframes
+
+---
+
+<sub>Baseado no artigo: <a href="https://www.mql5.com/en/articles/16457">Creating a mean-reversion strategy based on machine learning</a></sub>
