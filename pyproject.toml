@@ -1,0 +1,18 @@
+[project]
+name = "time-series-forecasting-ml"
+version = "1.0.0"
+description = "Estratégia de reversão à média com machine learning — EURGBP H1, CatBoost, ONNX e MetaTrader 5"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "catboost",
+    "numba",
+    "matplotlib",
+]
+
+[tool.uv]
+package = false
